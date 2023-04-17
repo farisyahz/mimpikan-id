@@ -29,6 +29,7 @@ const community = () => {
         position: toast.POSITION.TOP_CENTER,
         autoClose: 2000
       });
+      setPost({dream:""});
       return;
     }
 
