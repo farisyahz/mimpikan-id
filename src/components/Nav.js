@@ -8,7 +8,7 @@ export default function Nav(){
   const [menu, setMenu] = useState(0);
   return(
     <div className="w-full  bg-white shadow-md fixed top-0">
-      <nav className="flex  justify-between items-center sm:py-2 px-5 max-w-7xl mx-auto">
+      <nav className="flex  justify-between items-center py-1 sm:py-2 px-5 max-w-7xl mx-auto">
         <ul className="flex items-center gap-1 ">
           <Link href={"/"}>
             <button className="font-bold font-poppins text-xl"

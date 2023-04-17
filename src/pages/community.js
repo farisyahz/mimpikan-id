@@ -24,7 +24,7 @@ const community = () => {
       return;
     }
 
-    if(!post.dream){
+    if(!post.dream.trim()){
       toast.error("Your dream is empty 😂", {
         position: toast.POSITION.TOP_CENTER,
         autoClose: 2000
