@@ -18,8 +18,7 @@ const AllDreams = () => {
   useEffect(() => {
     getPosts();
   }, []);
-
-  console.log(allPost);
+  
   return (
     <>
       {allPost.length === 0 && <p>There is no post yet.</p>}
